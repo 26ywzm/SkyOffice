@@ -28,7 +28,7 @@
     "swiper": "^8.1.4",
     "vite": "^3.0.9",
     "peerjs": "^1.4.7",
-    "@types/peerjs": "^1.4.7"
+    "@types/peerjs": "^1.1.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
