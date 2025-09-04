@@ -14,7 +14,7 @@ RUN npm install --only=production
 COPY . .
 
 # 构建前端
-RUN npm run build --prefix client
+RUN npm ci --prefix client --legacy-peer-deps
 
 # 暴露端口（根据你的后端端口调整）
 EXPOSE 3000
