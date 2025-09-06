@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: your-dockerhub-username/skyoffice
+          images: 26ywzm/skyoffice
           tags: |
             type=ref,event=branch
             type=ref,event=tag

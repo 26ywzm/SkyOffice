@@ -8,13 +8,13 @@ WORKDIR /app
 COPY package*.json ./
 
 # 安装依赖
-RUN npm ci --only=production
+RUN npm install --only=production
 
 # 拷贝整个项目
 COPY . .
 
 # 构建前端
-RUN npm run build --prefix client
+RUN npm ci --prefix client --legacy-peer-deps
 
 # 暴露端口（根据你的后端端口调整）
 EXPOSE 3000
