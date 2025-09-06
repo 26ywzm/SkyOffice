@@ -81,15 +81,18 @@ git clone https://github.com/kevinshen56714/SkyOffice.git my-folder-name
 To start a server, go into the project folder and install dependencies/run start command:
 
 ```bash
-cd SkyOffice or 'my-folder-name'
-yarn && yarn start
+cd SkyOffice
+yarn install
+yarn start
 ```
 
 To start a client, go into the client folder and install dependencies/run start command:
 
 ```bash
-cd SkyOffice/client or 'my-folder-name/client'
-yarn && yarn dev
+# 在另一个终端
+cd SkyOffice/client
+yarn install
+yarn dev
 ```
 
 ## Credits 🎉
